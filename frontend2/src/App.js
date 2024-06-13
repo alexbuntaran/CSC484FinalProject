@@ -50,7 +50,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<SignUp />} />
+      <Route path="/" element={<Feed />} />
       <Route path="/feed" element={<Feed />} />
     </Routes>
   );
