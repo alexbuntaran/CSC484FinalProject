@@ -138,8 +138,8 @@
   overflow: hidden;
   min-width: 393px;
   max-width: 393px;
-  min-height: 852px;
-  max-height: 852px;
+  min-height: 800px;
+  max-height: 800px;
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--color-white);

@@ -5,11 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import OnboardingWelcome from "./pages/OnboardingWelcome";
-import OnboardingLoginPage from "./pages/OnboardingLoginPage";
-import OnboardingVerificationCode from "./pages/OnboardingVerificationCode";
-import OnboardingSignupPage from "./pages/OnboardingSignupPage1";
-import Feed from "./pages/Feed1";
+import SignUp from "./pages/SignUp";
+import Feed from "./pages/Feed";
 
 function App() {
   const action = useNavigationType();
@@ -28,26 +25,6 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/onboarding-signup-page":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/onboarding-login-page":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/feed1":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/onboarding-verification-code":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/onboarding-signup-page1":
         title = "";
         metaDescription = "";
         break;
@@ -73,21 +50,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<OnboardingWelcome />} />
-      <Route
-        path="/onboarding-signup-page"
-        element={<OnboardingSignupPage />}
-      />
-      <Route path="/onboarding-login-page" element={<OnboardingLoginPage />} />
-      <Route path="/feed1" element={<Feed />} />
-      <Route
-        path="/onboarding-verification-code"
-        element={<OnboardingVerificationCode />}
-      />
-      <Route
-        path="/onboarding-signup-page1"
-        element={<OnboardingSignupPage />}
-      />
+      <Route path="/" element={<SignUp />} />
       <Route path="/feed" element={<Feed />} />
     </Routes>
   );
