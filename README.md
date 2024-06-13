@@ -6,7 +6,7 @@ Contributors: Adi Gottumukkala and Alex Buntaran
 CaughtLackin is an app designed to connect people through a fun and interactive way. CaughtLackin prompts users with different challenges that require them to take pictures of their friends doing the things in the prompt. These pictures are sent to their friends, and they must verify whether or not the prompt was fulfilled. Overall, CaughtLackin allows users to connect with one another and possibly reveal times when users run into friends unexpectedly.
 
 ## Structure
-The structure of this project is hierarchal, where the main App file resides in a directory above all the other components and pages. For this project, there are 2 implemented pages that are accessible to the main App file. This project is implemented in React.js.
+The structure of this project is hierarchal, where the main App file resides in a directory above all the other components and pages. For this project, there are 2 implemented pages that are accessible to the main App file. This project was implemented in React.js with assistance from [Locofy](https://www.locofy.ai/convert/figma-to-react).
 
 ## Setup
 1. Intall [Node.js](https://nodejs.org/en/download/package-manager)
