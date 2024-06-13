@@ -1,0 +1,161 @@
+.caughlackinlogo1Icon {
+  margin-right: -23px;
+  margin-bottom: 84px;
+  width: 422px;
+  height: 88px;
+  position: relative;
+  object-fit: cover;
+  max-width: 114%;
+  flex-shrink: 0;
+}
+.enterYourInformation {
+  position: relative;
+  letter-spacing: 0.11em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.infoField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) 0 var(--padding-41xl);
+}
+.nameChild {
+  height: 53px;
+  width: 367px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.name1 {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.11em;
+  line-height: 125%;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.name,
+.phoneNumberChild {
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+}
+.name {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-xs)
+    var(--padding-7xl);
+  background-color: var(--color-gray-100);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.phoneNumberChild {
+  height: 53px;
+  width: 367px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.phoneNumber1 {
+  height: 29px;
+  position: relative;
+  letter-spacing: 0.11em;
+  line-height: 125%;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.inputFields,
+.phoneField,
+.phoneNumber {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phoneNumber {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+}
+.inputFields,
+.phoneField {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.phoneField {
+  flex-direction: row;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.inputFields {
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.submitBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-black);
+  cursor: pointer;
+}
+.submit1 {
+  height: 29px;
+  position: relative;
+  letter-spacing: 0.11em;
+  line-height: 125%;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.content,
+.submit {
+  align-self: stretch;
+  display: flex;
+}
+.submit {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.content {
+  height: 344px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-68xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
