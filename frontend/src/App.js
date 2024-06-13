@@ -6,9 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import OnboardingWelcome from "./pages/OnboardingWelcome";
-import OnboardingSignupPage from "./pages/OnboardingSignupPage";
 import OnboardingLoginPage from "./pages/OnboardingLoginPage";
-import Feed from "./pages/Feed";
 import OnboardingVerificationCode from "./pages/OnboardingVerificationCode";
 import OnboardingSignupPage from "./pages/OnboardingSignupPage1";
 import Feed from "./pages/Feed1";

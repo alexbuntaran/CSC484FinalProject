@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import NavbarIcon from "../components/NavbarIcon";
+import NavbarIcon from "../components/NavbarIcon1";
 import styles from "./Feed1.module.css";
 
 const Feed = () => {
