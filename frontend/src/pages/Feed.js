@@ -75,7 +75,7 @@ const Feed = () => {
       <img
         className={styles.caughtlackin1Icon}
         alt=""
-        src="/caughtlackin-11@2x.png"
+        src="/caughtlackin-1@2x.png"
       />
       <img
         className={styles.groupIcon}
